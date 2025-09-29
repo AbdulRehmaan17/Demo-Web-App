@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+/* Home Page Part */
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom right, #f1f5f9, #3b82f6);
+    color: #1e293b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px;
+}
+header {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    padding: 24px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #e5e7eb;
+}
+.header-content {
+    max-width: 800px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #2563eb;
+}
+header p {
+    font-size: 18px;
+    color: #64748b;
+    padding-top: 8px;
+}
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.container {
+    background: white;
+    border-radius: 12px;
+    padding: 32px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.container p {
+    font-size: 18px;
+    padding-bottom: 24px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 32px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+.btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+footer {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #64748b;
+    border-top: 1px solid #e5e7eb;
+}
+
+/* Create Blog Page Part */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom right, #f1f5f9, #3b82f6);
+    color: #1e293b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    padding: 24px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.header-content {
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #2563eb;
+}
+
+header p {
+    font-size: 18px;
+    color: #64748b;
+    padding-top: 8px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.form-container {
+    background: white;
+    border-radius: 12px;
+    padding: 32px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.form-group {
+    padding-bottom: 24px;
+}
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1e293b;
+    padding-bottom: 8px;
+}
+
+input[type="text"], input[type="date"], textarea, input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f9fafb;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="date"]:focus, textarea:focus, input[type="file"]:focus {
+    border-color: #2563eb;
+    outline: none;
+}
+
+textarea {
+    height: 180px;
+    resize: vertical;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    padding-top: 24px;
+    font-size: 14px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+    color: #1d4ed8;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #64748b;
+    border-top: 1px solid #e5e7eb;
+}
